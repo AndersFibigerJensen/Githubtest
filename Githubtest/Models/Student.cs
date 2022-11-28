@@ -8,7 +8,7 @@
         public string name { get; set; }
 
 
-        public Student(int id)
+        public Student(int Id)
         {
 
         }

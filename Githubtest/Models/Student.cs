@@ -5,12 +5,19 @@
 
         public int Id { get; set; }
 
-        public string name { get; set; }
+        public string Name { get; set; }
 
 
-        public Student()
+        public Student(string name)
         {
-
+            Name = name;
         }
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
+
+
     }
 }
